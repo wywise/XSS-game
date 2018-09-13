@@ -104,6 +104,7 @@ http://xss-game.appspot.com/level6/frame#data:text/plain,alert('xss')
 
 
 ## Done! You rock!
+   After you succeed in all the levels, we will gate a page with this HTML cake
    
    ```html
                                                          -oooo:-                                                        
