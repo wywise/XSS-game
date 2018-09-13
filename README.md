@@ -88,9 +88,20 @@ Now we will press the `Next` button, and the `alert` will turn on.
 
 
 ## Level 6: Follow the rabbit
-
+In this level, we will need to run a `JavaScript` file from the URL.  
+We can host a simple JavaScript file that contain only `alert()`, and then to paste it in the existing URL after the `#` symbol.   
+  
+We can also "make" a JavaScript file in the URL that containe the `alert()`, Like this:
 
 
 ```html
-https://xss-game.appspot.com/level6/frame#HTTPS:/
+http://xss-game.appspot.com/level6/frame#data:text/plain,alert('xss')
 ```
+
+(Like previous levels, we can put any message in the alert, like we did with writing `xss` )  
+
+
+
+
+## Done! You rock!
+
